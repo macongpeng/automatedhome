@@ -1,0 +1,47 @@
+<html>
+<head>
+	<!-- A single-page home automation map, using JQuery -->
+
+	<!-- JQuery, loaded from a CDN -->
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+
+	<!-- this is the file with info (including JS functions) for the various data types supported by the system. -->
+	<!-- to add a feature type, either modify this file or use JS to add an object to JADATA.dataTypes -->
+	<script src="js/data-types.js"></script>
+
+	<!-- this is the JS file that does the home automation -->
+	<script src="js/house-setup.js"></script>
+
+	<!-- custom fonts defined here, using google just because it's free -->
+	<link href="http://fonts.googleapis.com/css?family=Parisienne|Lora" rel="stylesheet" type="text/css">
+
+	<!-- CSS Styling, mostly formatting the control panel -->
+	<link href="css/styles.css" rel="stylesheet" type="text/css">
+
+</head>
+<body>
+    <div id="content">
+
+        <h1>Automated White House</h1>
+
+		    <div id="control-panel">
+            <h2>Control Panel</h2>
+
+			  <!-- this container will be filled with the home automation controls -->
+            <div id="control-panel-content"></div>
+        </div>
+
+		    <!-- this is the SVG floor plan for the home to be animated & automated -->
+		    <!-- To use a different home, you'll need to change 2 things: this SVG & the JSON file, data/home-object.json -->
+        <object type="image/svg+xml" data="media/house.svg" class="home-map" id="whitehouse-map">Your browser does not support SVG</object>
+
+        <script>
+				// set up the feature types data from the JSON object
+	      JAHOME.initFeatureData("data/featuretypes.json", JADATA.dataTypes);
+			  // set up White House data from the JSON object
+        JAHOME.initHomeData("data/whitehouse.json");
+        </script>
+
+    </div>
+</body>
+</html>

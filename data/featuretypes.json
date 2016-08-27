@@ -1,0 +1,27 @@
+{
+  "feature-types": {
+    "curtain": {
+      "name": "Curtains",
+      "data-type": "boolean",
+      "true-value": "Closed",
+      "false-value": "Open",
+      "true-opacity-change": 2.0,
+      "false-opacity-change": -2.0
+    },
+    "light": {
+      "name": "Lights",
+      "data-type": "boolean",
+      "true-value": "On",
+      "false-value": "Off",
+      "true-opacity-change": -1.0,
+      "false-opacity-change": 1.0
+    },
+    "temp": {
+      "name": "Temperature",
+      "data-type": "integer",
+      "units": "&#8457;",
+      "min": 60,
+      "max": 90
+    }
+  }
+}

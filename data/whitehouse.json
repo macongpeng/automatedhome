@@ -1,0 +1,105 @@
+{
+  "whitehouse": {
+    "name": "White House",
+    "features": {
+      "temp": {
+        "name": "Temperature",
+        "description": "Control the temperature of the home (Fahrenheit)",
+        "feature-type": "temp",
+        "current-value": 68
+      }
+    },
+    "rooms": {
+      "center-hall": {
+        "name": "center-hall",
+        "features": {
+          "light": {
+            "name": "Hall Light",
+            "feature-type": "light",
+            "current-value": "On"
+          },
+          "curtains": {
+            "name": "Front Curtains",
+            "feature-type": "curtain",
+            "current-value": "Closed"
+          }
+        }
+      },
+      "oval-room": {
+        "name": "oval-room",
+        "features": {
+          "overhead-light": {
+            "name": "Overhead Light",
+            "feature-type": "light",
+            "current-value": "On"
+          },
+          "curtains": {
+            "name": "Curtains",
+            "feature-type": "curtain",
+            "current-value": "Open"
+          }
+        }
+      },
+      "presidents-bedroom": {
+        "name": "presidents-bedroom",
+        "features": {
+          "bedside-lamp": {
+            "name": "Bedside Lamp",
+            "feature-type": "light",
+            "current-value": "Off"
+          },
+          "curtains": {
+            "name": "Blackout Curtains",
+            "feature-type": "curtain",
+            "current-value": "Closed"
+          }
+        }
+      },
+      "private-sitting-room": {
+        "name": "private-sitting-room",
+        "features": {
+          "overhead-light": {
+            "name": "Overhead Light",
+            "feature-type": "light",
+            "current-value": "Off"
+          }
+        }
+      },
+      "lincoln-bedroom": {
+        "name": "lincoln-bedroom",
+        "features": {
+          "bedside-lamp": {
+            "name": "Bedside Lamp",
+            "feature-type": "light",
+            "current-value": "Off"
+          },
+          "front-curtains": {
+            "name": "Front Curtains",
+            "feature-type": "curtain",
+            "current-value": "Closed"
+          },
+          "side-curtains": {
+            "name": "Side Curtains",
+            "feature-type": "curtain",
+            "current-value": "Closed"
+          }
+        }
+      },
+      "queens-bedroom": {
+        "name": "queens-bedroom",
+        "features": {
+          "bedside-lamp": {
+            "name": "Bedside Lamp",
+            "feature-type": "light",
+            "current-value": "Off"
+          },
+          "curtains": {
+            "name": "Blackout Curtains",
+            "feature-type": "curtain",
+            "current-value": "Closed"
+          }
+        }
+      }
+    }
+  }
+}
