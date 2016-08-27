@@ -15,7 +15,7 @@ It is based on an example from [Just Another Automated Home](https://github.com/
 ### Instructions on how to run the demo
 * Follow the Instructions document in [java based web server](https://github.com/macongpeng/webserver)
 * Copy the files to the root of the web server. The default root is html
-* Start the web server. Hit the url of http://127.0.0.1:<port>/index.HTML
+* Start the web server. Hit the url of http://127.0.0.1:8081/index.HTML
 
 ### The screenshot of the demo
-[[images/automatedhome.png]]
+![The screenshot of the demo](https://github.com/macongpeng/automatedhome/blob/master/images/automatedhome.png)
